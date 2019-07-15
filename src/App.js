@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './app.scss';
-import DashboardRoutes from 'component/dashboard/index.js';
+import DashboardRoutes from './component/dashboard/index.js';
 import Footer from './component/footer/index.js';
 import Header from './component/header/index.js';
 import { BrowserRouter } from 'react-router-dom';
