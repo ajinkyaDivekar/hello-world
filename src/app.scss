@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  // background: red;
+
+  .header-container, .footer-container {
+    background: lightblue;
+  }
+  .dashboard {
+    background: lightcyan;
+    height: 100vh;
+  }
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: green;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.hero-img-div {
+    height: 490px;
+    position: relative;
+}
+
+.hero-img {
+    width: 510px;
+    top: -10px;
+    left: 0;
+    position: absolute;
+}
+
+.hero-btc-inner-div {
+    height: 64px;
+    left: 2.3em;
+    font-size: 100px;
+    line-height: 1;
+    animation: btc 12s linear infinite;
+    transform-origin: 50% 289px;
+    top: -28px;
+    position: absolute;
+}
+
+.home-btc {
+    animation: inner-btc 12s linear infinite;
+    height: 48px;
+    width: 48px;
+}
+
+.hero-eth-inner-div {
+    height: 64px;
+    left: 2.3em;
+    font-size: 100px;
+    line-height: 1;
+    animation: eth 12s linear infinite;
+    transform-origin: 50% 289px;
+    top: -28px;
+    position: absolute;
+}
+
+.hero-inr-inner-div {
+    height: 107px;
+    left: 2.39em;
+    font-size: 100px;
+    line-height: 1;
+    animation: inr 12s linear infinite;
+    transform-origin: 50% 282px;
+    top: -20px;
+    position: absolute;
+}
+
+.home-eth {
+    animation: inner-eth 12s linear infinite;
+    height: 48px;
+    width: 48px;
+}
+
+.home-inr {
+    animation: inner-inr 12s linear infinite;
+    height: 48px;
+    width: 48px;
+}
