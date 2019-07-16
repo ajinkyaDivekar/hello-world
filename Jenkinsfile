@@ -32,7 +32,7 @@ pipeline {
                               agent {
                                     docker {
                                             reuseNode true
-                                            image 'ubuntu'
+                                            image 'ajinkya95/dev-fedora'
                                            }
                                     }
                               steps {
