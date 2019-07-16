@@ -30,7 +30,7 @@ pipeline {
                            }
                             stage('Integration test') {
                               agent {
-                                  sudo docker {
+                                   docker {
                                             reuseNode true
                                             image 'ajinkya95/dev-fedora'
                                            }
