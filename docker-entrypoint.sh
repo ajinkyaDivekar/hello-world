@@ -4,6 +4,6 @@ then
    cp ./.env.live ./.env
 else
    echo 'Log: Docker entrypoint to staging...'
-   cp ./.env.staging ./.env
+   cp ./.env.stage ./.env
 fi
 npm run build
