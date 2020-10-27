@@ -5,6 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+      home page
         <ContextMain />
       </div>
     );

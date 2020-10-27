@@ -5,6 +5,7 @@ class Hooks extends Component {
   render() {
     return (
       <div>
+      hooks
         <ExploreHooks />
       </div>
     );
